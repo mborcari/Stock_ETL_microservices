@@ -1,0 +1,7 @@
+wheel
+pika
+requests
+investpy
+pandas_datareader
+yfinance
+
