@@ -44,5 +44,10 @@ Here, you will create two stock etl microservices
     docker push registry.heroku.com/ms-etl-2-yourname/worker
     heroku container:release worker -a ms-etl-2-yourname
     heroku ps:scale worker=1 -a ms-etl-2-yourname
-    heroku logs --tail -a ms-etl-2-yourname
   ```
+  
+  
+  Use this command to see log on continer:
+    ```
+     heroku logs --tail -a ms-etl-1-yourname
+    ```
