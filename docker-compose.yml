@@ -4,6 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: python consumer.py
+    command: python3 consumer.py
     volumes:
       - .:/app

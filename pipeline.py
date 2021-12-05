@@ -87,15 +87,14 @@ def get_data_historial_stock(code_stock, source_data, start_date, end_date):
 
 
 def transformation_data(code_stock, dataframe) -> dict:
-    """ Realiza a análise do historico de um ativo, tratando os valores
-        como abertura, fechamento, mínina, máxima e volume
+    """ Transforme dataframe to dict.
 
     Args:
-        code_stock (str): Código do ativo
-        dataframe ([Datagframe]): Lista ou dicionário com os dados do histórico
+        code_stock (str): stock code
+        dataframe ([Datagframe]): datafram with historical data
 
     Returns:
-        dict: retorna um dicionário no formato necessário para o schema do banco de dadaos.
+        dict
     """
 
     historical = {"code_stock": code_stock, 'data': {}}
@@ -125,7 +124,7 @@ def transformation_data(code_stock, dataframe) -> dict:
 
 def run_pipeline(code_stock, source_data, start_date, end_date):
     """
-        Run pipile to get data, transforme and call producer mq
+        Run pipilne to get data, transforme and send do queue producer
     """
 
     datagrama = get_data_historial_stock(code_stock, source_data, start_date, end_date)
