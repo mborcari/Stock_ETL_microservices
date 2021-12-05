@@ -29,7 +29,7 @@ Here, you will create two stock etl microservices
 
   **Heroku commands to create stock etl microservices:**
   
-  Create app container:
+  Create apps containers:
   ```
     heroku create ms-etl-1-yourname
     docker build -f Dockerfile -t img_stock_ms_etl .
@@ -48,6 +48,6 @@ Here, you will create two stock etl microservices
   
   
   Use this command to see log on continer:
-    ```
-     heroku logs --tail -a ms-etl-1-yourname
-    ```
+   ```
+    heroku logs --tail -a ms-etl-1-yourname
+   ```
