@@ -1,6 +1,8 @@
 **ETL stocks microservices**
 
-Microservices to get stock historical data from extrenal source, like API or WebScrapy, transformation and return data.
+Microservices to get stock historical data from extrenal source, like API or WebScrapy, transformation and return to stock microservices https://github.com/mborcari/stock_microservices
+
+Actualy support infomoney and yahoo finance.
 
 **Stack used:**
 
