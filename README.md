@@ -1,6 +1,6 @@
-**Django stocks microservices**
+**ETL stocks microservices**
 
-Is a Django microservices project about Brazilian stocks.
+Microservices to get stock historical data from extrenal source, like API or WebScrapy, transformation and return data.
 
 **Stack used:**
 
