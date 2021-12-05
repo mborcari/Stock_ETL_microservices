@@ -16,12 +16,6 @@ Login in Heroku and Docker in console.
 heroku login
 heroku container: login
 ```
-To aplication works, is need:
-
-- 1x stock microservices. (https://github.com/mborcari/stock_microservices)
-- 2x stock etl microservices (https://github.com/mborcari/stock_etl_microservices)
-- 1x Postgres database instance.
-- 1x RabbitMQ instance.
 
 Here, you will create two stock etl microservices
 
