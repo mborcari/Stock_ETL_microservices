@@ -1,7 +1,7 @@
 from datetime import date
 from pandas.core.frame import DataFrame
 from pipeline import get_data_historial_stock, transformation_data
-DATA_EXEMPLO = ('GNDI3', 'investing', date(2021, 11, 1), date(2021, 11, 2))
+DATA_EXEMPLE = ('GNDI3', 'investing', date(2021, 11, 1), date(2021, 11, 2))
 
 def test_data_set(DATA_EXEMPLO):
     code_stock = DATA_EXEMPLO[0]
