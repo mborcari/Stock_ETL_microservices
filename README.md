@@ -1,12 +1,12 @@
 **ETL stocks microservices**
 
-Microservices to get stock historical data from extrenal source, like API or WebScrapy, transformation and return to stock microservices https://github.com/mborcari/stock_microservices
+Microservices to get stock historical data from external source, like API or WebScrapy, transform and return to stock microservices https://github.com/mborcari/stock_microservices
 
-Actualy support infomoney and yahoo finance.
+It currently supports infomoney and yahoo finance.
 
-**Stack used:**
+**Stack of project:**
 
-- Use pyenv and virtualenv for management environment;
+- Pyenv and virtualenv for management environment;
 - Docker and Docker-compose;
 - Pike, RabbitMq;
 
@@ -21,7 +21,7 @@ heroku container: login
 
 Here, you will create two stock etl microservices
 
-**Warning: Remember change tag "yourname" in this readme!.
+**Warning: Remember! change tag "yourname" on this read-me!.
 
   **Heroku commands to create stock etl microservices:**
   
@@ -43,7 +43,7 @@ Here, you will create two stock etl microservices
   ```
   
   
-  Use this command to see log on continer:
+  Use this command to see the log on continer:
    ```
     heroku logs --tail -a ms-etl-1-yourname
    ```
